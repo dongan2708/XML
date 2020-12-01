@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE program [
+<!ELEMENT program (comment, code)>
+<!ELEMENT comments (#PCDATA)>
+<!ELEMENT code (#PCDATA)>
+        ]>
+<!DOCTYPE program SYSTEM "program.dtd">
+<program>
+    <comments>
+        This is aa simple Java Program.It will display the message
+        "Hello world!" on execution.
+    </comments>
+    <code>
+        public static void main(String[] args)
+        System.out.println("Hello World!");
+    </code>
+</program>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Mobile [
+        <!ELEMENT Mobile  (Company, Model, Price, Accessories)>
+            <!ELEMENT Company (#PCDATA)>
+            <!ELEMENT Model (#PCDATA)>
+            <!ELEMENT Price (#PCDATA)>
+            <!ELEMENT Accessories (#PCDATA)>
+        <!ATTLIST Model Type CDATA "Camera">
+        <!ENTITY HP "Head Phones">
+        <!ENTITY CH "Charger">
+        <!ENTITY SK "Starter's Kit">
+        ]>
+<Mobile>
+    <Company>Aptech</Company>
+    <Model>Head Phones</Model>
+    <Price>9999</Price>
+    <Accessories></Accessories>
+</Mobile>

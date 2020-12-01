@@ -1,0 +1,11 @@
+Artist {
+    color: blue;
+}
+* {
+    display: block;
+    text-align: center;
+}
+#favorite {
+    background-color: lightblue;
+    color: blue;
+}
